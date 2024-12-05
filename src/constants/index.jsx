@@ -47,7 +47,7 @@ import project6 from "../assets/projects/project_6.png";
   export const PROJECTS = [
     {
       id: 1,
-      title: "E-commerce Website",
+      title: "Paratha Store",
       description:
         "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
       techStack: ["React", "Node.js", "Express", "MongoDB"],
@@ -57,7 +57,7 @@ import project6 from "../assets/projects/project_6.png";
     },
     {
       id: 2,
-      title: "Social Media App",
+      title: "Weather App",
       description:
         "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
       techStack: ["React", "Firebase", "Redux"],
@@ -66,7 +66,7 @@ import project6 from "../assets/projects/project_6.png";
     },
     {
       id: 3,
-      title: "Portfolio Website",
+      title: "Crypto Bazaar",
       description:
         "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
       techStack: ["Next.js", "Tailwind CSS"],
@@ -75,7 +75,7 @@ import project6 from "../assets/projects/project_6.png";
     },
     {
       id: 4,
-      title: "Blog Platform",
+      title: "News App",
       description:
         "A blogging platform with a content management system, user authentication, and an intuitive editor.",
       techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
