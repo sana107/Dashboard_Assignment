@@ -17,7 +17,7 @@ const Navbar = () => {
               src={logo}
               alt="image"
               style={{ backgroundColor: "white" }}
-              width={50}
+              width={30}
             />
             {/* add logo omag here later */}
           </a>

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { SKILLS } from '../constants';
+import redux from "../assets/icons/redux.png";
 import 'remixicon/fonts/remixicon.css';
 
 import { gsap } from "gsap";
