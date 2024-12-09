@@ -213,3 +213,12 @@ export const EXPERIENCES = [
 //       "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
 //     image: personImage,
 //   };
+
+
+// const [socialMediaLinks, setSocialMediaLinks] = useState([
+//   { href: 'https://twitter.com', icon: '🐦' },
+//   { href: 'https://facebook.com', icon: '📘' },
+//   { href: 'https://instagram.com', icon: '📸' },
+// ]);
+
+

@@ -4,12 +4,12 @@ import {motion} from "framer-motion";
 
 const Education = () => {
   return (
-    <section className="py-8 mt-16" id="education">
+    <section className=" pt-16" id="education">
       <motion.h2 
         initial={{opacity:0,y:-20}}
         whileInView={{opacity:1, y:0}}
         transition={{duration:1}}
-        className="mb-4 text-center text-3xl font-bold">Education</motion.h2>
+        className="mt-4 text-center text-3xl font-bold">Education</motion.h2>
       <div className="py-8">
         {EDUCATION.map((edu, id) => (
           <motion.div 

@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Education from './components/Education'
 import ContactForm from './components/ContactForm';
+// import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Experience/>
           <Education/>
           <ContactForm/>
+          {/* <Footer /> */}
         </main>
         
     </>
