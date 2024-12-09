@@ -14,33 +14,7 @@ import project4 from "../assets/projects/project_4.jpg";
 import project5 from "../assets/projects/project_5.jpg";
 import project6 from "../assets/projects/project_6.png";
 
-// import {
-//     RiHtml5Line,
-//     RiCss3Line,
-//     RiJavascriptLine,
-//     RiReactjsLine,
-//     RiNodeTree,
-//   } from "@remixicon/react";
-//   import {
-//     RiDatabaseLine,
-//     RiCodeSSlashLine,
-//     RiGitBranchLine,
-//   } from "@remixicon/react";
 
-//   export const NAVIGATION_LINKS = [
-//     { label: "Projects", href: "#projects" },
-//     { label: "Skills", href: "#skills" },
-//     { label: "Work Experience", href: "#work" },
-//     { label: "Education", href: "#education" },
-//     { label: "Contact", href: "#contact" },
-//   ];
-
-//   export const PROFILE = {
-//     name: "David Stones",
-//     role: "Full Stack Developer",
-//     subheading:
-//       "With 10 years of full-stack development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
-//   };
 
 export const PROJECTS = [
   {
