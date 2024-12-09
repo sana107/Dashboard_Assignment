@@ -66,7 +66,7 @@ const ContactForm = () => {
   return (
     <div className="p-4 lg:px-16 " id="contact">
       <Toaster />
-      <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter ">
+      <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter lg:text-3xl">
         Let's Connect
       </h2>
       <motion.form 

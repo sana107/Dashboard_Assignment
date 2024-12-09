@@ -9,9 +9,9 @@ const About = () => {
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="my-16 text-center text-4xl text-zinc-50"
+        className="my-16 text-center text-4xl text-zinc-50 lg:3xl font-semibold"
       >
-        About
+        About me
         {/* <span className="text-neutral-500">Me</span> */}
       </motion.h1>
       <div className="flex flex-wrap">

@@ -16,7 +16,7 @@ const Projects = () => {
       scale: 1,
       rotate: 0,
       y: 0,
-      
+
       transition: {
         duration: 1.5,
         ease: "easeout",
@@ -26,12 +26,19 @@ const Projects = () => {
     },
   };
   return (
-
-    <section className="px-6 py-10 flex items-center justify-center flex-col" id="work">
-      <h1 className="text-4xl md:text-4xl font-medium tracking-tight mb-5 mt-20 ">
-        WORK
-      </h1>
-      <div className="h-1 w-20 mb-16 bg-white"></div>
+    <section
+      className="px-6 py-10 flex items-center justify-center flex-col"
+      id="work"
+    >
+      <motion.h1
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className=" md:text-3xl tracking-tight mb-16 mt-20 text-3xl font-semibold lg:text-3xl"
+      >
+        Projects
+      </motion.h1>
+      {/* <div className="h-1 w-20 mb-16 bg-white"></div> */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-6 gap-y-16">
         {PROJECTS.map((item) => (
           <motion.div
@@ -39,7 +46,7 @@ const Projects = () => {
             className="relative rounded-lg overflow-hidden h-[400px] transition-transform  "
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true,amount:0.5 }}
+            viewport={{ once: true, amount: 0.5 }}
             variants={projectvarients}
           >
             <img

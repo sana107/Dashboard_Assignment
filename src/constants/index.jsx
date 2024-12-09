@@ -51,7 +51,7 @@ export const PROJECTS = [
     techStack: ["React", "Node.js", "Express", "MongoDB"],
     imgSrc: project1,
 
-    link: "https://example-ecommerce.com",
+    link: "https://parathatime.vercel.app/",
   },
   {
     id: 2,
@@ -60,7 +60,7 @@ export const PROJECTS = [
       "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
     techStack: ["React", "Firebase", "Redux"],
     imgSrc: project2,
-    link: "https://example-socialapp.com",
+    link: "https://sana107.github.io/Weather_app/",
   },
   {
     id: 3,
@@ -69,7 +69,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
     techStack: ["Next.js", "Tailwind CSS"],
     imgSrc: project3,
-    link: "https://myportfolio.com",
+    link: "https://crypto-bazaar-hazel.vercel.app/",
   },
   {
     id: 4,
@@ -78,7 +78,7 @@ export const PROJECTS = [
       "A blogging platform with a content management system, user authentication, and an intuitive editor.",
     techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
     imgSrc: project4,
-    link: "https://example-blogplatform.com",
+    link: "news-app-kaltak.vercel.app",
   },
   {
     id: 5,
@@ -136,14 +136,7 @@ export const SKILLS = [
 ];
 
 export const EXPERIENCES = [
-  // {
-  //   yearRange: "2023 - Present",
-  //   role: "Senior Full Stack Developer",
-  //   company: "Google Inc.",
-  //   description:
-  //     "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-  //   techStack: ["Javascript", "React.js", "Next.js", "MongoDB"],
-  // },
+
   {
     yearRange: "Apr 2024 - Present",
     role: "Frontend Developer",
@@ -161,22 +154,7 @@ export const EXPERIENCES = [
       "Git",
     ],
   },
-  // {
-  //   yearRange: "2021 - 2022",
-  //   role: "Full Stack Developer",
-  //   company: "Facebook",
-  //   description:
-  //     "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
-  //   techStack: ["Python", "Svelte", "Three.js", "Postgres"],
-  // },
-  // {
-  //   yearRange: "2020 - 2021",
-  //   role: "Software Engineer",
-  //   company: "PayPal",
-  //   description:
-  //     "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-  //   techStack: ["Ruby", "Rails", "PHP", "SQLite"],
-  // },
+
 ];
 
   export const EDUCATION = [
@@ -196,23 +174,10 @@ export const EXPERIENCES = [
       description:
         "Focused on advanced software engineering concepts, system design, and AI technologies. Completed a thesis on machine learning applications in real-time data processing.",
     },
-    // {
-    //   id: 3,
-    //   degree: "Certified React Developer",
-    //   institution: "Udacity Nanodegree",
-    //   duration: "2019",
-    //   description:
-    //     "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
-    // },
+
   ];
 
-//   export const TESTIMONIAL = {
-//     name: "Sarah Doe",
-//     title: "CEO, TechCorp",
-//     quote:
-//       "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
-//     image: personImage,
-//   };
+
 
 
 // const [socialMediaLinks, setSocialMediaLinks] = useState([

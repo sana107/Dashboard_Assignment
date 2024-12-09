@@ -19,9 +19,9 @@ const Marque = () => {
     <div className="py-16 lg:py-24">
       <div className="bg-gradient-to-r from-emerald-300 to-sky-400 overflow-x-clip -rotate-3 -mx-1">
         <motion.div 
-        initial={{x:"-100%"}}
-        animate={{x:"0"}}
-        transition={{repeat:Infinity, ease : "linear", duration:20}}
+        // initial={{x:"-100%"}}
+        // animate={{x:"0"}}
+        // transition={{repeat:Infinity, ease : "linear", duration:20}}
         className="flex  [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
 
 
