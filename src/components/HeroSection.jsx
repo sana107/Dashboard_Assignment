@@ -1,5 +1,6 @@
 import React from "react";
 import girl_img from "../assets/girl_img.png";
+import my_img from "../assets/my_img.jpg";
 import { ButtonPrimary,ButtonOutline } from "./Button";
 
 const HeroSection = () => {
@@ -37,6 +38,7 @@ const HeroSection = () => {
         <div className="hidden lg:block">
             <figure className="w-full max-w-[380px] ml-auto  overflow-hidden">
                 <img src={girl_img} alt=""  width={400}/>
+                {/* <img src={my_img} alt=""  width={280} /> */}
             </figure>
         </div>
       </div>

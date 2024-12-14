@@ -46,7 +46,6 @@ ButtonPrimary.PropTypes = {
 
 
 
-// primarybutton
 
 const ButtonOutline= ({ href, target = self, label, icon, classes }) => {
     if (href) {

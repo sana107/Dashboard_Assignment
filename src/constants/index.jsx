@@ -14,8 +14,6 @@ import project4 from "../assets/projects/project_4.jpg";
 import project5 from "../assets/projects/project_5.jpg";
 import project6 from "../assets/projects/project_6.png";
 
-
-
 export const PROJECTS = [
   {
     id: 1,
@@ -61,7 +59,7 @@ export const PROJECTS = [
       "A task management tool with user authentication, reminders, and collaboration features.",
     techStack: ["Angular", "Firebase", "Material UI"],
     imgSrc: project5,
-    link: "https://example-taskapp.com",
+    link: "todo-material.vercel.app",
   },
   {
     id: 6,
@@ -110,7 +108,6 @@ export const SKILLS = [
 ];
 
 export const EXPERIENCES = [
-
   {
     yearRange: "Apr 2024 - Present",
     role: "Frontend Developer",
@@ -128,36 +125,29 @@ export const EXPERIENCES = [
       "Git",
     ],
   },
-
 ];
 
-  export const EDUCATION = [
-    {
-      id: 1,
-      degree: "Bachelor of Computer Science & Information Technology",
-      institution: "Institute of Engineering & Science, IPS Academy",
-      duration: "2019 - 2023",
-      description:
-        "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
-    },
-    {
-      id: 2,
-      degree: "Higher Secondary School",
-      institution: "Indira Vidya Mandir H.S. school ",
-      duration: "2018 - 2019",
-      description:
-        "Focused on advanced software engineering concepts, system design, and AI technologies. Completed a thesis on machine learning applications in real-time data processing.",
-    },
-
-  ];
-
-
-
+export const EDUCATION = [
+  {
+    id: 1,
+    degree: "Bachelor of Computer Science & Information Technology",
+    institution: "Institute of Engineering & Science, IPS Academy",
+    duration: "2019 - 2023",
+    description:
+      "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
+  },
+  {
+    id: 2,
+    degree: "Higher Secondary School",
+    institution: "Indira Vidya Mandir H.S. school ",
+    duration: "2018 - 2019",
+    description:
+      "Focused on advanced software engineering concepts, system design, and AI technologies. Completed a thesis on machine learning applications in real-time data processing.",
+  },
+];
 
 // const [socialMediaLinks, setSocialMediaLinks] = useState([
 //   { href: 'https://twitter.com', icon: '🐦' },
 //   { href: 'https://facebook.com', icon: '📘' },
 //   { href: 'https://instagram.com', icon: '📸' },
 // ]);
-
-

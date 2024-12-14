@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import girl_img from "../assets/girl_img.png";
+import my_img from "../assets/my_img.jpg";
+
 
 const About = () => {
   return (
@@ -24,6 +26,7 @@ const About = () => {
             className="flex items-center justify-center"
           >
             <img className="rounded-zxl" src={girl_img} alt="aboutme" />
+            {/* <img className="rounded-zxl" src={my_img} alt="aboutme" width={280}/> */}
           </motion.div>
         </div>
 
