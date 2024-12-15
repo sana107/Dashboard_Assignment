@@ -1,7 +1,11 @@
 import React from "react";
 import girl_img from "../assets/girl_img.png";
 import my_img from "../assets/my_img.jpg";
-import { ButtonPrimary,ButtonOutline } from "./Button";
+import { LuDownload } from "react-icons/lu";
+
+import { FaAngleDown } from "react-icons/fa";
+
+// import { ButtonPrimary,ButtonOutline } from "./Button";
 
 const HeroSection = () => {
   return (
@@ -27,19 +31,37 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">Building Scalable Modern Websites for the Future</h2>
+          <div>
+            <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-2">
+              Hi, I am Mahak Sanole
+            </h2>
+
+            <p className="text-xl font-mediun  max-w-none mt-5 mb-8 lg:mb-10 ">Frontend Developer, Building Scalable<br/> Modern Websites for the Future</p>
+          </div>
 
           <div className="flex items-center gap-3">
-            <ButtonPrimary label="Resume" icon="download"/>
-             <ButtonOutline href="#about" label="Scroll down" icon="arrow_downward"/>
+            <a
+              href="https://drive.google.com/uc?id=1zdwBsjkFZGESkD1qhw5-l6HyIERyliK1&export=download"
+              download
+            >
+              <button className="bg-sky-400 py-2 px-6 rounded-lg flex items-center gap-2 text-white hover:bg-sky-300 transition">
+                Resume <LuDownload />
+              </button>
+            </a>
+
+            <a href="#target-section">
+              <button className="bg-sky-400 py-2 px-6 rounded-lg flex items-center gap-2 text-white hover:bg-sky-300 transition">
+                Scroll Down <FaAngleDown />
+              </button>
+            </a>
           </div>
         </div>
 
         <div className="hidden lg:block">
-            <figure className="w-full max-w-[380px] ml-auto  overflow-hidden">
-                <img src={girl_img} alt=""  width={400}/>
-                {/* <img src={my_img} alt=""  width={280} /> */}
-            </figure>
+          <figure className="w-full max-w-[380px] ml-auto  overflow-hidden">
+            <img src={girl_img} alt="" width={400} />
+            {/* <img src={my_img} alt=""  width={280} /> */}
+          </figure>
         </div>
       </div>
     </section>

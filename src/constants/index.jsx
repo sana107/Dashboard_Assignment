@@ -63,12 +63,12 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Dasboard",
     description:
       "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
     techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
     imgSrc: project6,
-    link: "https://example-learningplatform.com",
+    link: "eskillstask.vercel.app",
   },
 ];
 

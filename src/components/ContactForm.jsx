@@ -37,7 +37,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const validationErrors = validate();
-    if (object.keys(validationErrors).length > 0) {
+    if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
     } else {
       setErrors({});
@@ -55,6 +55,7 @@ const ContactForm = () => {
           setFormData({ name: "", email: "", message: "" });
         })
         .catch((error) => {
+          console.error("EmailJS Error:", error.text || error); 
           console.log("FAILED...", error);
           toast.error("Failed to send messages.Please try again later");
         })
@@ -64,7 +65,7 @@ const ContactForm = () => {
     }
   };
   return (
-    <div className="p-4 lg:px-16 " id="contact">
+    <div className="p-16 lg:px-16 " id="contact">
       <Toaster />
       <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter lg:text-3xl">
         Let's Connect
